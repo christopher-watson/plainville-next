@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -7,7 +8,15 @@ export default function Home() {
         <title>Plainville, MA</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
+      <nav>
+        {/* <Image 
+          src='/wave.svg' 
+          layout='responsive'
+          width={600}
+          height={400}
+          priority/> */}
+          Plainville.com
+      </nav>
       <main>
         <h1 className='title'>
           Welcome to <span className='blue'>Plainville.com</span>
@@ -21,13 +30,7 @@ export default function Home() {
       </main>
 
       <footer>
-        Built by
-        <a
-          href='https://christopherwatson.co'
-          target='_blank'
-          rel='noopener noreferrer'>
-          : Christopher Watson
-        </a>
+        All Rights Reserved
       </footer>
     </div>
   );
