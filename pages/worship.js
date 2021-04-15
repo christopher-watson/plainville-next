@@ -8,7 +8,7 @@ export default function Home() {
       <Layout page='worship'>
         <main>
           <h1 className='title'>
-            Worship
+            Worship Worship
           </h1>
         </main>
       </Layout>
