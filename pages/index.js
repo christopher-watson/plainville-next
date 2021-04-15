@@ -7,14 +7,14 @@ export default function Home() {
     <div className='index-container'>
       <Header name='Home' />
       <nav id="nav">
-        <div className="nav-left">
-          <Link href="/"><a className="nav-link">Home</a></Link>
-          <Link href="/inside"><a className="nav-link">Inside Plainville</a></Link>
-          <Link href="/departments"><a className="nav-link">Departments</a></Link>
-          <Link href="/worship"><a className="nav-link">Places of Worship & Organizations</a></Link>
-          <Link href="/schools"><a className="nav-link">Schools</a></Link>
+        <div className="list">
+          <Link href="/"><a className="nav-link top">Home</a></Link>
+          <Link href="/inside"><a className="nav-link top">Inside Plainville</a></Link>
+          <Link href="/departments"><a className="nav-link top">Departments</a></Link>
+          <Link href="/worship"><a className="nav-link bottom1">Places of Worship & Organizations</a></Link>
+          <Link href="/schools"><a className="nav-link bottom2">Schools</a></Link>
         </div>
-        <div className="nav-right">
+        <div className="logo">
           <Image src='/mass.png' width={267} height={162} layout='intrinsic' />
         </div>
       </nav>
