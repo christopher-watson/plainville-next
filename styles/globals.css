@@ -86,7 +86,8 @@ body {
 .logo {
   display: flex;
   grid-area: logo;
-  justify-content: center;
+  /* justify-content: center; */
+  padding-top: 20px;
   align-items: center;
   flex-direction: column;
 }
@@ -175,8 +176,8 @@ body {
   }
 
   .logo {
-    grid-area: logo;
-    padding-top: 20px;
+    /* grid-area: logo; */
+    /* padding-top: 20px; */
   }
 
   .inner-card {
