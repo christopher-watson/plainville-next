@@ -60,7 +60,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: visible;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   grid-template-areas: "list logo";
   color: var(--white);
 }
@@ -90,6 +90,7 @@ body {
   padding-top: 20px;
   align-items: center;
   flex-direction: column;
+  margin-left: -50px;
 }
 
 .welcome {
@@ -151,6 +152,7 @@ body {
     grid-area: bottom2;
   }
 
+
 }
 
 
@@ -175,15 +177,15 @@ body {
     align-items: center;
   }
 
-  .logo {
-    /* grid-area: logo; */
-    /* padding-top: 20px; */
-  }
-
   .inner-card {
     width: 600px;
     height: 200px;
     margin: 10px 0;
   }
+
+  .logo {
+    margin-left: 0;
+  }
+
 }
 
