@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Card = (props) => {
   return (
-    <div className="card-container">
+    <div className="card-container" id={props.id}>
       {
         props.left ?
           <div className="inner-card text-left">
@@ -19,6 +19,9 @@ const Card = (props) => {
             <div className="card-text">
               {props.children}
             </div>
+              {/* <div className="bottom">
+                <a href={props.href} target="_blank" rel="noopener noreferrer">{props.atext}</a>
+              </div> */}
           </div>
       }
 
