@@ -210,7 +210,7 @@ footer {
 
 @media only screen and (max-width: 1220px) {
   #nav {
-    height: fit-content;
+    height: min-content;
     width: 100%;
     background: var(--blue);
     grid-template-columns: 1fr;
@@ -219,6 +219,7 @@ footer {
       "logo"
       "list";
     color: var(--white);
+    padding: 0 50px;
   }
   
   .list {
